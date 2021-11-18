@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+  background-image:url("../IMAGENS/");
+    background-position: 50% 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input{
+    display: block;  
+    height: 55px;
+    width: 400px;
+    margin: 10px ; 
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255,255, 0.01);
+    outline: none;
+}
+
+input[type=submit]
+{
+    background-color: #ff0066;
+    border: none;
+    cursor: pointer;
+}
+
+div#corpo{
+/*background-color:orange ;*/
+width: 420px;
+margin: 120px auto 0px auto;
+}
+
+div#corpoCad{
+    /*background-color:orange ;*/
+    width: 420px;
+    margin: 80px auto 0px auto;
+    }
+    
+
+div#corpo h1, div#corpoCad{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 255, 50,.3);
+    border: 1px solid rgb(165,422,422);
+}
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 255, 50,.3);
+    border: 1px solid rgb(165,422,422);
+
+}
